@@ -549,5 +549,5 @@ class BookContent extends Component {
 }
 
 export default withStyles(styles, { withTheme: true })(withRouter (GoogleApiWrapper({
-    apiKey: 'AIzaSyCj8yfTtePpTRFmtGJqWTADsXpS_AWZQEA',
+    apiKey: {API_KEY},
   })(BookContent)));
